@@ -45,7 +45,8 @@ CodeMirror.defineMode("xml", function(config, parserConfig) {
   var tagName, type;
 
   function inText(stream, state) {
-    function chain(parser) {
+    function chain(parser)
+    {
       state.tokenize = parser;
       return parser(stream, state);
     }

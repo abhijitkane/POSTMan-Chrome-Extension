@@ -17,6 +17,11 @@ a, a:hover {
     width: 100%;
 }
 
+.treeView {
+	margin-left: -1px;
+	overflow-x: auto;	
+}
+
 #sidebar {
     -webkit-user-select: none;
     -khtml-user-select: none;
